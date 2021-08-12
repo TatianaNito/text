@@ -1,0 +1,150 @@
+.tabela {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid black;
+}
+
+.larguraText {
+    margin-bottom: 30px;
+
+}
+
+.tabela td {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
+
+.tabela th input {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
+
+
+/*input,
+    button
+    {
+        margin: 0;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        border-color: transparent;
+    }*/
+
+.texto {
+    /*border-collapse:collapse;
+        border-spacing:0; border-color:#3c4247;    border-color:#3c4247;*/
+    border: 1px solid transparent;
+    font-family: inherit;
+    font-size: 10px;
+    margin-right: 4px;
+    margin-left: -5px;
+    margin-bottom: -8px;
+    padding: 15px 10px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.imgt {
+    width: 140px;
+    height: 150px;
+    border: 1px solid #000;
+    background: #ffff54;
+    position: absolute;
+    top: 0;
+    /* left: 0; */
+    right: 20px;
+    bottom: 0;
+    top: 80px;
+}
+
+.inlineDiv {
+    padding-top: -10px;
+    display: inline;
+}
+
+.defineLabel3 {
+    width: 60% !important;
+}
+
+.defineLabel {
+    width: 40% !important;
+}
+
+.defineLabel2 {
+    width: 25% !important;
+}
+
+.defineInput2 {
+    height: 1rem!important;
+    width: 55%!important;
+}
+
+.defineInput1 {
+    height: 1rem!important;
+    width: 43%!important;
+}
+
+.defineInput3 {
+    height: 1rem!important;
+    width: 65%!important;
+}
+
+.defineInput4 {
+    height: 1rem!important;
+    width: 85%!important;
+}
+
+.inputDot {
+    border-bottom: 2px dotted black !important;
+}
+
+.defineInput {
+    height: 1rem!important;
+    /*width: 50%!important;*/
+}
+
+.labelCentralizar {
+    display: flex;
+    align-items: center;
+}
+
+.tabela .retangulo-vertial {
+    border-color: inherit;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 14px;
+    text-align: left;
+    vertical-align: top
+}
+
+.tabela .retangulo {
+    border-color: inherit;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid black;
+}
+
+.tabela .quadrado {
+    border-color: inherit;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid black;
+}
+
+@media only screen and (min-width: 601px) {
+    .tabela {
+        width: 100%;
+    }
+}
